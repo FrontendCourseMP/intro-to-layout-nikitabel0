@@ -1,0 +1,80 @@
+:root{
+    --main-color:#1A4D70;
+    --two-main-color:#FFFFFF;
+}
+
+.main_title{
+    color: var(--two-main-color);
+}
+
+.main.txt{
+    color: var(--two-main-color);
+}
+
+.company_title{
+    color: var(--main-color);
+}
+
+.company_list_txt{
+    color: var(--main-color);
+}
+
+.company_txt{
+    color: var(--main-color);
+}
+
+.equipment-info_title{
+    color: var(--main-color);
+}
+
+.equipment-info_txt{
+    color: var(--main-color);
+}
+
+.advantages_title{
+    color: var(--two-main-color);
+}
+
+.advantages_title{
+    color: var(--main-color);
+}
+
+.advantages_txt-info{
+    color: var(--main-color);
+}
+
+.customers_title{
+    color: var(--main-color);
+}
+
+.registr_txt{
+    color: var(--two-main-color);
+}
+
+.registr_form{
+    color: var(--two-main-color);
+}
+
+.geographical_txt{
+    color: var(--main-color);
+}
+
+.geographical_iteam{
+    color: var(--main-color);
+}
+
+.contacts_txt{
+    color: var(--two-main-color);
+}
+
+.contacts_link{
+    color: var(--main-color);
+}
+
+.processing-information_txt{
+    color: var(--two-main-color);
+}
+
+.filling-application{
+    color: var(--two-main-color);
+}
