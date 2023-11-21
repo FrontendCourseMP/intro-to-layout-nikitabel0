@@ -1,0 +1,130 @@
+/* roboto-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html,body{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    font-style: normal;
+    
+}
+
+.wrapper{
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root{
+    --main-color:#1A4D70;
+    --two-main-color:#FFFFFF;
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: #F9572B;
+    margin-left: 146px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.header_logo{
+    position: relative;
+    z-index: 88;
+}
+
+p{
+    margin-right: 24px;
+    margin-left:  24px;
+}
+
+
+.header{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%; 
+   z-index: 100;
+   display: block;
+}
+.header_wrapper{
+    max-width: 342px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.header_button {
+    background: none;
+    position: relative;
+    display: block;
+    padding: 16px;
+    margin-left: 320px;
+    margin-bottom: 120px;
+    bottom: 40px;
+    z-index: 50;
+    border: 0;
+    background-image: url(/img/Menu.svg);
+}
+
+
+  
+.button::after {
+    margin-top: 2px;
+}
+
+.header_wrapper{
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.header_link{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.list_link{
+    color: var(--Blue, #1A4D70);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

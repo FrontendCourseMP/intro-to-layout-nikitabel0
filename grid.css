@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 6;
+}
+
+.element1{
+    background-color:blue;   
+    width: 100px;
+    height: 100px;
+}
+.element2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}

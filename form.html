@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+          <img class="white" src="/img/Rectangle 8 (4).png" alt="">
+          <img class="bluee" src="/img/Rectangle 10 (1).png" alt="">
+    
+          <a href=""><img src="/img/Logo.png" alt="логотип компании" class="header_logo"></a>
+          <button class="header_button"></button>
+    
+        </div>
+      </header>
+      <main>
+        <h1></h1>
+        <div class="wrapper">
+            <form action="//httpbin.org/post" method="post" class="form main-form">
+                <h2 class="form__name">Форма обратной связи</h2>
+                <fieldset class="main-form__fieldset fieldset-personal">
+                    <legend class="main-form__legend fieldset-personal__legend">Личные данные</legend>
+                    <ul class="main-form__list fieldset-personal__list">
+                        <li class="list__string">
+                            <label class="label" for="name">
+                                Ваше имя (обязательное поле)
+                                <input type="text" id="name" required placeholder="Иван" class="main-form__input">
+                            </label>
+                        </li>
+                        <li class="list__string">
+                            <label class="label" for="birthday">
+                                Дата рождения (обязательное поле)
+                                <input type="date" id="birthday" required placeholder="1.01.2000" class="main-form__input">
+                            </label>
+                        </li>
+                        <li class="list__string">
+                            <p class="list__string__txt">Ваш пол</p>
+                            <label class="label" for="sex">
+                                <input type="radio" name="sex" id="male">
+                                Мужской
+                            </label>
+                            <label class="label" for="sex">
+                                <input type="radio" name="sex" id="woman">
+                                Женский
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="main-form__fieldset fieldset-contact">
+                    <legend class="main-form__legend fieldset-contact__legend">Контактные данные</legend>
+                    <ul class="main-form__list fieldset-personal__list">
+                        <li class="list__string">
+                            <label class="label" for="passw">
+                                Ваш пароль
+                                <input type="password" id="passw" placeholder="Пароль" class="main-form__input">
+                            </label>
+                        </li>
+                        <li class="list__string">
+                            <label class="label" for="mail">
+                                Ваш email
+                                <input type="email" id="mail" placeholder="primer@gmail.com" class="main-form__input">
+                            </label>
+                        </li>
+                        <li class="list__string">
+                            <label  class="label" for="phone">
+                                Ваш телефон
+                                <input type="tel" id="phone" placeholder="+78005553535" class="main-form__input">
+                            </label>
+                        </li>
+                        <li class="list__string">
+                            <p class="list__string__txt">Удобный интервал для связи</p>
+                            <label class="label" for="morning">
+                                <input type="radio" name="time" id="morning">
+                                Утро
+                            </label>
+                            <label class="label" for="day">
+                                <input type="radio" name="time" id="day">
+                                День
+                            </label>
+                            <label class="label" for="evening">
+                                <input type="radio" name="time" id="evening">
+                                Вечер
+                            </label>
+                            <label class="label" for="night">
+                                <input type="radio" name="time" id="night">
+                                Ночь
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <input class="submit__bitton" type="submit">
+                <input class="reset__button" type="reset">
+            </form>
+        </div>  
+            
+        <footer>
+          
+            
+            <div class="footer">
+                <p class="footer_txt">2015 — 2023 г.</p>
+                <img class="footer_pic" src="/img/Logo (3).svg" alt="лого компании">
+            </div>
+            </div>
+            
+              
+            </section>
+            
+          </footer>
+</body>
+</html>
