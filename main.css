@@ -887,9 +887,16 @@ input {
 
 
 
-/*form
 
-
+.header__form{
+    
+    position: absolute;
+    z-index: 99;
+    margin-left: 720px;
+    margin-top: 46px;
+    text-decoration: none;
+    color: var(--main-color);
+}
 
 
 
