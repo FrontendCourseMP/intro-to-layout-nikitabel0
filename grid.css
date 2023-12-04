@@ -1,17 +1,18 @@
-.grid{
-    display: grid;
-    max-width: 1000px;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 6;
+.q{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
+.s{
+    position: relative;
+    
+    background-color: black;
+    height: 500px;
+    width: 200px;
 }
 
-.element1{
-    background-color:blue;   
-    width: 100px;
-    height: 100px;
-}
-.element2{
+.z{
     background-color: aqua;
-    width: 100px;
-    height: 100px;
+    height: 300px;
+    width: 300px;
 }
