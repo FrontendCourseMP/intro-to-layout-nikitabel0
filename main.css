@@ -51,30 +51,50 @@ html,body{
     margin: 0 auto;
 }
 .header{
-    position: relative;
-    width: 390px;
+    
+    position: absolute;
     margin: 0 auto;
+    width: 100%;
+    background: url(/img/headerrr.svg) no-repeat center;
+    background-size: cover;
+    height: 150px;  
+   
+    
+}
+
+@media (max-width: 390px) { 
+    .header{
+        position: absolute;
+        margin: 0 auto;
+        width: 100%;
+        background: url(/img/headerrr.svg) no-repeat center;
+        background-position: -1400px top;
+        height: 150px;  
+       
+    } 
+
 }
 main{
     width: 100%;
 }
 
 .header__wrapper{
-    z-index: 99;
-    position: fixed;
-    width: 390px;
     margin: 0 auto;
+    width: 342px;
+    z-index: 99;
     height: 150px;
-    background-image: url(/img/header__fon.svg);
 }
 
 .header-wrapper__block{
+    display: block;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 342px;
     margin: 0 auto;
     margin-top: 20px;
+
 }
 
 .header-wrapper__button{
@@ -135,9 +155,8 @@ main{
     height: 200px;
 }
 
-.grafic{
-    width: 390px;
-    margin: 0 auto;
+.gg{
+    width: 100%;
 }
  
 
@@ -237,6 +256,22 @@ main{
 }
 
 
+.advantages__item:hover{
+	transition: 0.75s;
+	transform: scale(0.97, 0.97);
+	cursor: pointer;
+}
+
+.customers__item:hover{
+    transition: 0.75s;
+	transform: scale(1.2, 1.2);
+	cursor: pointer;
+
+}
+
+
+
+
 .company__list{
     display: flex;
     flex-wrap: wrap;
@@ -279,6 +314,8 @@ main{
     height: 51px;
     background-color:#EFEFEF;
     margin-bottom: 32px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .equipment-info_button{
@@ -414,6 +451,7 @@ main{
 }
 
 .customers__title{
+    font-family: Roboto ;
     text-align: center;
     color: var(--main-color);
     font-size: 36px;
@@ -462,6 +500,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    font-family: Roboto ;
 }
 
 span{
@@ -637,6 +676,7 @@ span{
     margin-top: 121px;
     display: flex;
     flex-wrap: wrap;
+    font-family: Roboto ;
 }
 
 .filling-application_txt{
@@ -650,6 +690,21 @@ span{
     margin-bottom: 24px;
 
 }
+
+.form_input-fill{
+    margin-bottom: 24px;
+    width: 342px;
+    height: 43px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
 span{
     font-family: Roboto;
 }
