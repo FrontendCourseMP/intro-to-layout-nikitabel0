@@ -212,3 +212,176 @@ footer{
     background-color: #1A4D70;
 }
 
+legend{
+    font-weight: 600;
+
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+dl{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+.footer_pic{
+    transform: rotate(-30deg) skew(10deg, 10deg) scale(2);
+
+}
+dt::first-letter{
+    font-size: 2rem;
+    color: var(--second-main);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--second-main);
+    margin-right: 5px;
+}
+dt::first-letter{
+    font-size: 16px;
+    color: var(--second-main);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--second-main);
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.main-form--2__fieldset input{
+    display: none;
+}
+
+.main-form--2__fieldset label{
+    position: relative;
+}
+
+.main-form--2__fieldset label::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main);
+    transition: width 0.3s ease; /* Решить количество потребляемого Зоей бухла */
+}
+
+.main-form--2__fieldset input:checked + label::after{
+    transition-duration: 1s;
+    transition: cubic-bezier();
+    width: 100%;
+}
+
+.main-form--2 li:nth-child(even){
+    border-left: 2px solid var(--main);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.main-form--2 li:nth-child(odd){
+    border-left: 2px solid var(--second-main);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+
+:root {
+    --second-main: #F49C89;
+    --main-text: #ECEEF8;
+    --main: #34344E;
+    --sub-text: #FFF;
+    --line-color: rgba(52, 52, 78, 0.50);
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+label{
+    cursor: pointer;
+}
+
+
+label[for='passw']:focus-within,
+label[for='mail']:focus-within,
+label[for='phone']:focus-within,
+label[for='name']:focus-within,
+label[for='birthday']:focus-within {
+    color: var(--second-main);
+}
+
+.fieldset-personal__label--required{
+    border-left: 2px solid var(--main);
+    padding-left: 5px;
+}
+
+
+
+
+
+.logo{
+    transform: rotate(-30deg) skew(10deg, 10deg) scale(2);
+}
+
+
+dt::first-letter{
+    font-size: 24px;
+    color: var(--second-main);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--second-main);
+    margin-right: 5px;
+}
+
+.main-form--2__fieldset input{
+    display: none;
+}
+
+.main-form--2__fieldset label{
+    position: relative;
+}
+
+.main-form--2__fieldset label::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main);
+    transition: width 0.3s ease; 
+}
+
+.main-form--2__fieldset input:checked + label::after{
+    transition-duration: 1s;
+    transition: cubic-bezier();
+    width: 100%;
+}
+
+.main-form--2 li:nth-child(even){
+    border-left: 2px solid var(--main);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.main-form--2 li:nth-child(odd){
+    border-left: 2px solid var(--second-main);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+li{
+    font-size: 16px;
+    font-family: Roboto;
+}
+

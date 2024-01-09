@@ -82,6 +82,82 @@
                 <input class="reset__button" type="reset">
             </form>
         </div>  
+        <form action="post" class="form main-form main-form--2">
+            <dl>
+                <dt>Псевдоэлемент</dt>
+                <dd> Элементы, которых не существует в HTML-разметке. Они создаются и позиционируются исключительно при помощи CSS. Чаще всего используются для создания различных декоративных элементов (которые не несут содержательного смысла).</dd>
+                <dt>Псевдокласс</dt>
+                <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный признак: реакция на наведение курсора, порядок следования и другие.</dd>
+            </dl>
+            <fieldset class="main-form--2__fieldset">
+                <legend>Псевдоэлементы</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::before" value="::before" checked>
+                        <label for="::before">::before</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::after" value="::after" checked>
+                        <label for="::after">::after</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::first-letter" value="::first-letter" checked>
+                        <label for="::first-letter">::first-letter</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::selection" value="::selection">
+                        <label for="::selection" aria-checked="true">::selection</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::first-line" value="::first-line">
+                        <label for="::first-line">::first-line</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::placeholder" value="::placeholder" checked>
+                        <label for="::placeholder">::placeholder</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id="::marker" value="::marker">
+                        <label for="::marker">::marker</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="main-form--2__fieldset">
+                <legend>Псевдоклассы</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":active" value=":active" checked>
+                        <label for=":active">:active</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":hover" value=":hover" checked>
+                        <label for=":hover">:hover</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":focus" value=":focus" checked>
+                        <label for=":focus">:focus</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":checked" value=":checked" checked>
+                        <label for=":checked" aria-checked="true">:checked</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":not" value=":not">
+                        <label for=":not">:not</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":root" value=":root" checked>
+                        <label for=":root">:root</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="psclass" id=":empty" value=":empty">
+                        <label for=":empty">:empty</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+        
             
         <footer>
             <div class="footer-line"></div>

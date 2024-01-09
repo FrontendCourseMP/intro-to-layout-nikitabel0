@@ -271,13 +271,14 @@ aside{
 }
 
 .section_3 a {
+    color: wheat;
     background-color: blue;
     text-decoration: none;
     color: var(--main-text);
     font-size: 5rem;
     padding: 12px;
     background-color: blue;
-    border-radius: 30px;
+    border-radius: 10px;
     z-index: 10;
 }
 

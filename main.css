@@ -764,7 +764,53 @@ span{
     line-height: normal;
 }
 
+p::selection{
+    background-color: #F9572B;
 
+}
+h1::selection{
+    background-color: #F9572B;
+    
+}
+h2::selection{
+    background-color: #F9572B;
+    
+}
+h3::selection{
+    background-color: #F9572B;
+    
+}
+a::selection{
+    background-color: #F9572B;
+    
+}
+
+a:hover{
+    transition: 0.97s;
+	transform: scale(0.97, 0.97);
+
+}
+
+button:hover{
+    transition: 0.97s;
+	transform: scale(1.2, 1.2);
+}
+
+a:active{
+    color: blue;
+}
+
+a:focus{
+    color: #777;
+}
+
+button:active{
+    background-color: green;
+}
+
+button:focus{
+    color: #1A4D70;
+}
 
 
 
