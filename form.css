@@ -213,10 +213,10 @@ footer{
 }
 
 legend{
-    font-weight: 600;
+    font-weight: 500px;
 
     color: var(--main-color);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 dl{
@@ -226,7 +226,7 @@ dl{
 
 
 .footer_pic{
-    transform: rotate(-30deg) skew(10deg, 10deg) scale(2);
+    transform: rotate(-29deg) skew(10deg, 10deg) scale(2);
 
 }
 dt::first-letter{
@@ -236,17 +236,17 @@ dt::first-letter{
 dd::before{
     content: '\01F6C8';
     color: var(--second-main);
-    margin-right: 5px;
+    margin-right: 4px;
 }
 dt::first-letter{
-    font-size: 16px;
+    font-size: 14px;
     color: var(--second-main);
 }
 dd::before{
     content: '\01F6C8';
     color: var(--second-main);
-    margin-right: 5px;
-    font-size: 16px;
+    margin-right: 4px;
+    font-size: 14px;
 }
 
 .main-form--2__fieldset input{
@@ -265,11 +265,11 @@ dd::before{
     width: 0;
     height: 2px;
     background-color: var(--main);
-    transition: width 0.3s ease; /* Решить количество потребляемого Зоей бухла */
+    transition: width 0.5s ease; 
 }
 
 .main-form--2__fieldset input:checked + label::after{
-    transition-duration: 1s;
+    transition-duration: 2s;
     transition: cubic-bezier();
     width: 100%;
 }
@@ -280,11 +280,7 @@ dd::before{
     margin-top: 10px;
 }
 
-.main-form--2 li:nth-child(odd){
-    border-left: 2px solid var(--second-main);
-    padding-left: 5px;
-    margin-top: 10px;
-}
+
 
 
 :root {
@@ -320,7 +316,7 @@ label[for='birthday']:focus-within {
 }
 
 .fieldset-personal__label--required{
-    border-left: 2px solid var(--main);
+    border-left: 2px solid wheat;
     padding-left: 5px;
 }
 
@@ -335,11 +331,11 @@ label[for='birthday']:focus-within {
 
 dt::first-letter{
     font-size: 24px;
-    color: var(--second-main);
+    color: wheat;
 }
 dd::before{
     content: '\01F6C8';
-    color: var(--second-main);
+    color: wheat;
     margin-right: 5px;
 }
 
@@ -358,7 +354,7 @@ dd::before{
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--main);
+    background-color: yellow;
     transition: width 0.3s ease; 
 }
 
@@ -369,13 +365,13 @@ dd::before{
 }
 
 .main-form--2 li:nth-child(even){
-    border-left: 2px solid var(--main);
+    border-left: 2px solid blue;
     padding-left: 5px;
     margin-top: 10px;
 }
 
 .main-form--2 li:nth-child(odd){
-    border-left: 2px solid var(--second-main);
+    border-left: 2px solid  firebrick;
     padding-left: 5px;
     margin-top: 10px;
 }
@@ -383,5 +379,11 @@ dd::before{
 li{
     font-size: 16px;
     font-family: Roboto;
+}
+
+.main-form--2 li:nth-child(odd){
+    border-left: 2px solid var(--second-main);
+    padding-left: 5px;
+    margin-top: 10px;
 }
 
